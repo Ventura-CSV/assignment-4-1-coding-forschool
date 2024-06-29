@@ -12,7 +12,7 @@ def main():
         
         if ord(start) > ord(end):
             print("Error: The starting value can't be smaller than ending value")
-            
+            continue
         for i in range(ord(start), ord(end)+1):
             result.append(chr(i))
         
